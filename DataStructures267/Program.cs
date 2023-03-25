@@ -11,7 +11,7 @@ namespace DataStructures267
         static void Main(string[] args)
         {
             Console.WriteLine("....Data structures....");
-            Console.WriteLine("\n1:Custom Linked list\n2:Custom stack\n22:Default");
+            Console.WriteLine("\n1:Custom Linked list\n2:Custom stack\n3:custom ques\n22:Default");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -94,6 +94,14 @@ namespace DataStructures267
                     stack.Display();
                     stack.isEmpty();
                     stack.Display();
+                    break;
+                case 3:
+                    CustomQues<int> Queues = new CustomQues<int>();
+                    Queues.Enqueue(56);
+                    Queues.Enqueue(30);
+                    Queues.Enqueue(70);
+                    Queues.Dequeue();
+                    Queues.Display();
                     break;
             }
             Console.ReadLine();
