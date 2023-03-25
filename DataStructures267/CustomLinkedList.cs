@@ -169,8 +169,6 @@ namespace DataStructures267
                 throw new Exception("data2 not found in the list.");
             }
         }
-
-  
         public void Display()
             {
             if (head == null)
