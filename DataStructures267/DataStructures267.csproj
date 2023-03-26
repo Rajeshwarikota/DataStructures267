@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuiltInLinkedList.cs" />
+    <Compile Include="BuiltInQue.cs" />
     <Compile Include="BuiltInStack.cs" />
     <Compile Include="CustomLinkedList.cs" />
     <Compile Include="CustomQues.cs" />
