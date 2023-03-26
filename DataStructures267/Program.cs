@@ -11,7 +11,7 @@ namespace DataStructures267
         static void Main(string[] args)
         {
             Console.WriteLine("....Data structures....");
-            Console.WriteLine("\n1:Custom Linked list\n2:Custom stack\n3:custom ques\n4:Built-in linked list\n5:Built-In Stack\n6:Built-In Queue\n22:Default");
+            Console.WriteLine("\n1:Custom Linked list\n2:Custom stack\n3:custom ques\n4:Built-in linked list\n5:Built-In Stack\n6:Built-In Queue\n7:Sorting in Descending\n22:Default");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -112,6 +112,9 @@ namespace DataStructures267
                     break;
                 case 6:
                     BuiltInQue.CRUDOperation();
+                    break;
+                case 7:
+                    SortingInDescending.Descending();
                     break;
             }
             Console.ReadLine();
