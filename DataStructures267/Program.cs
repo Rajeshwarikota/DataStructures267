@@ -88,9 +88,9 @@ namespace DataStructures267
                     break;
                 case 2:
                     CustomStack<int> stack = new CustomStack<int>();
-                    stack.Add(56);
-                    stack.Add(30);
-                    stack.Add(70);
+                    stack.push(56);
+                    stack.push(30);
+                    stack.push(70);
                     stack.Display();
                     stack.isEmpty();
                     stack.Display();

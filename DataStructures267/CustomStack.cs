@@ -10,7 +10,7 @@ namespace DataStructures267
     internal class CustomStack<T>
     {
         public Node<T> top;
-        public void Add(T data)
+        public void push(T data)
         {
             Node<T> newNode = new Node<T>(data);
             if (top == null)
